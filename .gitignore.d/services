@@ -1,0 +1,7 @@
+*
+!/.config
+!/.config/systemd
+!/.config/systemd/user
+!/.config/systemd/user/conky.service
+!/.config/systemd/user/ssh-agent.service
+!/.pam_environment

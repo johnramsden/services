@@ -1,0 +1,12 @@
+[Unit]
+Description=Conky Daemon
+Wants=network.target
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/conky -c /home/john/.config/conky/conkyrc
+Restart=always
+RestartSec=30
+
+[Install]
+WantedBy=default.target
