@@ -1,0 +1,10 @@
+[Unit]
+Description=Mousetweaks Dwell Window
+Required=graphical.target
+After=graphical.target
+
+[Service]
+ExecStart=/usr/bin/mousetweaks --dwell  --dwell-mode=window
+
+[Install]
+WantedBy=graphical.target
