@@ -1,5 +1,4 @@
 *
-!/.config
 !/.config/systemd
 !/.config/systemd/user
 !/.config/systemd/user/conky.service
