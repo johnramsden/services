@@ -2,6 +2,8 @@
 !/.config/systemd
 !/.config/systemd/user
 !/.config/systemd/user/conky.service
+!/.config/systemd/user/duplicitybak.service
+!/.config/systemd/user/duplicitybak.timer
 !/.config/systemd/user/mousetweaks.service
 !/.config/systemd/user/ssh-agent.service
 !/.gitignore.d

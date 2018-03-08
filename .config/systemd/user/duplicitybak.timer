@@ -1,0 +1,9 @@
+[Unit]
+Description=Run duplicity backup every 33 days
+
+[Timer]
+OnCalendar=monthly
+Persistent=true
+
+[Install]
+WantedBy=timers.target
